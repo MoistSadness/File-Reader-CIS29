@@ -1,5 +1,5 @@
 CXX=g++
-CFLAGS=-I -std=c99 -pedantic -Wall
+CFLAGS=-I -std=c++14 -pedantic -Wall --std=c++14
 OBJ = main.o
 
 # The default command does everything, it clears the terminal, compiles the app, and runs it. Just type make!

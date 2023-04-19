@@ -95,6 +95,10 @@ void parseCSV( std::string dataStr) {
 
     while(std::getline(dataStream, line)){
         std::cout << line << std::endl;             // Print the line
+        
+        std::vector< std::tuple<std::string, std::string, std::string> > storeCSV;      // Vector of tuples to store CSV data
+
+        std::tuple<std::string, std::string, std::string> csvTuple;
 
         /** Loop to split by ',' and print each item
         std::string item;
